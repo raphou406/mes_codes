@@ -40,6 +40,10 @@ public class Test {
         return a + b;
     }
 
+    public static float f(int x){
+        return x^2;
+    }
+
     public static int boucle(){
         int total = 0;
         for(int i = 0; i < 10; i++){
